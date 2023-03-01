@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <title>CV Sofia Gonzalez</title>
+    <script src="java script/eventos.js"></script>
+</head>
+<!--Acá empieza la botonera lateral-->
+<div class="botonera">
+    <a href="#personal"><img class="boton" src="img/persona.png" id="pers" onmousemove="enCeleste1()"
+            onmouseleave="enVioleta1()" alt="Informacion personal"> </a>
+    <a href="#laboral"><img class="boton" src="img/laboral.png" id="labo" onmousemove="enCeleste2()"
+            onmouseleave="enVioleta2()" alt="Experiencia"> </a>
+    <a href="#habilidades"><img class="boton" src="img/habilidades.png" id="habi" onmousemove="enCeleste3()"
+            onmouseleave="enVioleta3()" alt="Habilidades"> </a>
+    <a href="#educacion"><img class="boton" src="img/estudios.png" id="estu" onmousemove="enCeleste4()"
+            onmouseleave="enVioleta4()" alt="Estudios"> </a>
+</div>
+
+<body>
+    <!--Acá empieza lo principal del CV-->
+    <div class="degrade">
+        <div class="grilla">
+            <div class="intro">
+                <div class="nombres">SOFIA GONZALEZ</div>
+                <div class="bajada">Máster en Ciberseguridad Informática</div>
+                <div class="descripcion">Especialista en seguridad informática (ciso) con Máster en Ciberseguridad. Más
+                    de 10 años de experiencia protegiendo los sistemas informáticos de empresas
+                    privadas garantizando la protección de datos. En busca de un puesto similar.</div>
+                <a href="#"><img src="img/behance.png" class="icono" id="be" onmousemove="enAmarillo5()"
+                        onmouseleave="enNegro5()"></a>
+                <a href="#"><img src="img/github.png" class="icono" id="gi" onmousemove="enAmarillo6()"
+                        onmouseleave="enNegro6()"></a>
+                <a href="#"><img src="img/linkedin.png" class="icono" id="li" onmousemove="enAmarillo7()"
+                        onmouseleave="enNegro7()"></a>
+            </div>
+            <img src="img/Sofia.png" class="perfil">
+        </div>
+    </div> <!--Acá termina lo principal del cv-->
+    <!--Acá empieza el contenido del CV-->
+    <div class="caja" id="personal">
+        <div class="titulo">Información Personal</div>
+        <div class="text">
+            <ul>
+                <li>Edad: 43</li>
+                <li>Residencia: Merlo, GBA</li>
+                <li>Nacimiento: 2/1/80</li>
+                <li>Nacionalidad: Argentina</li>
+                <li>Telefono: 1132651985</li>
+                <li>E-mail: sofia.gonzalez@hotmail.com</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="caja" id="laboral">
+        <div class="titulo">Experiencia Laboral</div>
+        <div class="text">
+            <ul>
+                <li>2010 - 2013 / Accenture / Ciberseguridad OT </li>
+                <li>2013 - 2015 / Consultora Cenit / Consultor en Ciberseguridad Senior</li>
+                <li>2015 - 2020 / Amalgama / Lider de Ciberseguridad</li>
+                <li>2020 - Act. / KPMG Argentina / Directora de Ciberseguridad</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="caja" id="habilidades">
+        <div class="titulo">Habilidades</div>
+        <div class="text">
+            <ul>
+                <li>Perfil analítico y resolutivo</li>
+                <li>Coordinación de proyectos</li>
+                <li>Arquitectura de redes</li>
+                <li>Monitorización de amenazas</li>
+                <li>Configuración de firewalls</li>
+                <li>Planificación y previsión</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="caja" id="educacion">
+        <div class="titulo">Estudios</div>
+        <div class="text">
+            <ul>
+                <li>2000 - 2005 / Ingenieria en Informatica / UBA </li>
+                <li>2007 - 2011 / Master en Ciberseguridad Informatica / UNIR - Online</li>
+            </ul>
+        </div>
+    </div>
+    <div class="vacio"></div>
+</body>
+
+</html>
